@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="colorAccent">#FFC107</color>
+
+    <color name="edit_box_bg_dark">#2A2E34</color>
+    <color name="card_bg">#2F343B</color>
+    
+    <color name="facebook_color">#3A5B98</color>
+    <color name="twitter_color">#5FB0EB</color>
+    <color name="google_plus_color">#E3786E</color>
+
+    <color name="hint_text_color">#6E7276</color>
+</resources>

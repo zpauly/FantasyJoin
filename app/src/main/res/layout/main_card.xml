@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    style="@style/CustomCardView"
+    android:id="@+id/main_card"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:id="@+id/logo_IV"
+            android:src="@mipmap/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/components_padding"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_marginTop="@dimen/components_margin"
+                android:id="@+id/facebook_BTN"
+                android:text="@string/continue_with_facebook"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_facebook_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/components_padding"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_marginRight="@dimen/button_margin"
+                    android:id="@+id/twitter_BTN"
+                    android:layout_weight="1"
+                    android:text="@string/twitter"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_twitter_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_marginLeft="@dimen/button_margin"
+                    android:id="@+id/google_plus_BTN"
+                    android:text="@string/google_plus"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_google_plus_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:background="@null"
+                    android:id="@+id/sign_in"
+                    android:text="@string/sign_in"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:background="@null"
+                    android:id="@+id/sign_up"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:text="@string/sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
