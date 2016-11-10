@@ -5,4 +5,4 @@
 <img src="/screenshots/sign_in.png" width = "25%" height = "25%" align=center />
 <img src="/screenshots/sign_up.png" width = "25%" height = "25%" align=center />
 #####GIF效果图
-<img src="/screenshots/fantasy_join.png" width = "25%" height = "25%" align=center />
+<img src="/screenshots/fantasy_join.gif" width = "25%" height = "25%" align=center />
